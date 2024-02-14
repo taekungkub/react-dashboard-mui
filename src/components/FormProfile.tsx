@@ -15,7 +15,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { red } from "@mui/material/colors";
+import { grey, red } from "@mui/material/colors";
 import { DatePicker } from "@mui/x-date-pickers";
 import {
   InfoHeader,
@@ -38,13 +38,12 @@ export default function Profile() {
             <div className="flex justify-center mt-[-35px]">
               <Avatar
                 className="border-4 border-white"
-                sx={{ bgcolor: red[500], width: 120, height: 120 }}
-                src="https://go.hrzoft.com/api/images/1707712790662/employee/1707713020018-5d28a264b112b947.jpeg"
+                sx={{ bgcolor: grey[500], width: 120, height: 120 }}
               ></Avatar>
             </div>
 
             <div className="flex justify-center mt-4">
-              <Chip label="เจนนี่" className="bg-white" />
+              <Chip label="xxxxx" className="bg-white" />
             </div>
 
             <Typography
@@ -52,14 +51,14 @@ export default function Profile() {
               textAlign={"center"}
               variant="body1"
             >
-              ปพิชญา คมวีระวงศ์
+              xxxxxx xxxxxx
             </Typography>
             <Typography
               className="text-slate-500"
               textAlign={"center"}
               variant="body2"
             >
-              กรรมการผู้จัดการ
+              xxxxxxxxx
             </Typography>
           </div>
 
@@ -73,7 +72,7 @@ export default function Profile() {
             <Box className="flex items-center gap-2">
               <MailOutline className="text-slate-400" />
               <Typography variant="body2" className="text-slate-600">
-                titi.tana@gmail.com
+                xxxxxx.xxxxxx@xxxxx.xxx
               </Typography>
             </Box>
             <Box className="flex items-center gap-2">
