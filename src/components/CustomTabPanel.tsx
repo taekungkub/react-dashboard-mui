@@ -8,6 +8,9 @@ import FormContract from "./FormContract";
 import WorkExp from "./WorkExp/WorkExp";
 import EducationExp from "./EducationExp/EducationExp";
 import FormEmployment from "./FormEmployment";
+import Document from "./Document/Document";
+import Salary from "./Salary/Salary";
+import Settings from "./Settings/Settings";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -88,6 +91,15 @@ export default function BasicTabs() {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={5}>
         <FormEmployment />
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={6}>
+        <Document />
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={7}>
+        <Salary />
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={8}>
+        <Settings />
       </CustomTabPanel>
     </Box>
   );

@@ -14,7 +14,13 @@ export default function EducationExp() {
       <Box className="max-w-4xl block mx-auto">
         <Box className="flex items-center justify-between mb-8">
           <PageHeader>ข้อมูลการศึกษา</PageHeader>
-          <Button variant={"gradient"} onClick={() => open()}>
+          <Button
+            variant={"gradient"}
+            onClick={() => {
+              setType("ADD");
+              open();
+            }}
+          >
             + เพิ่มการศึกษา
           </Button>
         </Box>

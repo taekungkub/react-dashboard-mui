@@ -15,7 +15,13 @@ export default function Family() {
       <Box className="max-w-4xl block mx-auto">
         <Box className="flex items-center justify-between mb-8">
           <PageHeader>ครอบครัว</PageHeader>
-          <Button variant={"gradient"} onClick={() => open()}>
+          <Button
+            variant={"gradient"}
+            onClick={() => {
+              setType("ADD");
+              open();
+            }}
+          >
             + เพิ่มสมาชิกครอบครัว
           </Button>{" "}
         </Box>
